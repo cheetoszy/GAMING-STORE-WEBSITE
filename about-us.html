@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Gammers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Gammers</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="tournaments.html">Tournaments</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Games">
+        </div>
+    </header>
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>
+                At our core, we are passionate about gaming and everything that comes with it. Whether you’re a casual player or a hardcore gamer, we provide a curated selection of the latest games, consoles, and accessories designed to enhance your gaming experience. From cutting-edge technology to limited edition collectibles, we ensure that our products meet the needs of every type of gamer.
+
+            </p>
+            <p>
+                We believe that gaming is more than just a hobby — it’s a community. That’s why we are dedicated to offering not only high-quality products but also exceptional customer service. Our goal is to provide an experience that goes beyond shopping, creating a space where gamers can discover, connect, and level up together. Join us and take your gaming journey to the next level!
+
+
+            </p>
+            <button class="read-more">Read more</button>
+        </div>
+        <div class="image-container">
+            <img src="gamingcontroller.jpg" alt="Gaming Controller">
+        </div>
+    </section>
+</body>
+</html>
+
+<style>
+    /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e1424;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Navigation Bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #1a233b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #00aaff;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    width: 200px;
+}
+/* About Us Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #0B1220;
+    min-height: 100vh;
+}
+
+.content {
+    max-width: 50%;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #bfc7d5;
+}
+
+.content .read-more {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #0B1220;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.content .read-more:hover {
+    background-color: #e3e3e3;
+}
+
+.image-container {
+    max-width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
+}
+
+</style>
